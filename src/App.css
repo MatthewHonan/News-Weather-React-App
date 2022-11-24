@@ -1,38 +1,54 @@
-.App {
+.container{
+  justify-content: space-between;
+}
+
+.weather-container{
+  max-width: 400px;
+  margin-left: 0;
+  padding-left: 850px;
+  position: absolute;
+}
+
+.header{
+  font-size: 28px;
   text-align: center;
+  border-radius: 10px;
+  background-color: rgb(230, 230, 230);
+  width: fit-content;
+  color: rgb(21, 23, 60);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.news-header{
+  font-size: 28px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 10px;
+  background-color: rgb(230, 230, 230);
+  width: fit-content;
+  color: rgb(21, 23, 60);
+}
+.small-icon{
+  width: 70px;
+  text-align: right;
+  position: absolute;
 }
 
-.App-link {
-  color: #61dafb;
+.news-list{
+  max-width: 750px;
+  padding-left: 100px;
+  position: absolute;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-header{
+  font-size: 58px;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: rgb(230, 230, 230);
+  color:rgb(21, 23, 60);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+.header-icon{
+  width: 80px;
 }
