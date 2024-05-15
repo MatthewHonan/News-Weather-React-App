@@ -3,7 +3,7 @@
   This project returns a list of today's headlines using the News API and the current weather of any city with a population of at least 1 million using the GeoDB and OpenWeather API's. Implemented with: React, Javascript, html, and CSS.
 
 # Picture Examples
-![initial-impression]![image](https://github.com/MatthewHonan/News-Weather-React-App/assets/118576766/d44aedc2-5422-493f-8908-e537ea13037e)
+![initial-impression] ![image](https://github.com/MatthewHonan/News-Weather-React-App/assets/118576766/d44aedc2-5422-493f-8908-e537ea13037e)
 
  On the left is the list of the articles of today's headlines from the News API. on the right is a search bar to find a city you wish to find the weather.
  
